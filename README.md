@@ -26,6 +26,7 @@ $ yarn start
 https://yarnpkg.com/en/docs/install#mac-stable
 
 ## 2. App.jsの中身を作成していく
+コミットの内容通りに作って見てください
 
 ## 3. Sassを使える様にする
 
