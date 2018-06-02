@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import twitterImage from './assets/icons/twitter.svg';
 import facebookImage from './assets/icons/facebook.svg';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
