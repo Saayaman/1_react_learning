@@ -35,4 +35,23 @@ C. あとはこの参照の通りに`webpack.config.dev.js`の中身を変えて
 How to add Sass from create-react-app
 https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
 
+## *React等に便利なパッケージをテキストエディタ入れてみよう!
 
+- React-Native/React/Redux snippets for es6/es7
+- Bracket Pair Colorizer
+- Material Icon Theme
+- ESLint
+
+## 4. HeaderとFooter Componentを作成!
+
+A. Componentの説明: どういう時にComponentを使うか
+B. ファイル構成の説明: どういうファイル構成が望ましいか
+B. importの説明: Componentの中にどうやってファイルを読み込むか
+C. sass説明: sass, mixin, functions, variablesが便利な理由
+
+## 休憩？10分
+
+## 5. 
+
+A. Destructuring について
+B. props と stateについて
