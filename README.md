@@ -48,16 +48,16 @@ https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app
 
 ## 4. HeaderとFooter Componentを作成!
 
-A. Componentの説明: どういう時にComponentを使うか
-B. ファイル構成の説明: どういうファイル構成が望ましいか
-B. importの説明: Componentの中にどうやってファイルを読み込むか
-C. sass説明: sass, mixin, functions, variablesが便利な理由
+- A. Componentの説明: どういう時にComponentを使うか
+- B. ファイル構成の説明: どういうファイル構成が望ましいか
+- C. importの説明: Componentの中にどうやってファイルを読み込むか
+- D. sass説明: sass, mixin, functions, variablesが便利な理由
 
 ## 休憩？10分
 
 ## 5. 
 
-A. Destructuring について
-B. props と stateについて
-C. Componentsとライフサイクルについて
-D. ComponentsとFunctional Componentsについて
+- A. Destructuring について
+- B. props と stateについて
+- C. Componentsとライフサイクルについて
+- D. ComponentsとFunctional Componentsについて
