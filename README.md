@@ -26,12 +26,12 @@ https://yarnpkg.com/en/docs/install#mac-stable
 
 ## 3. Sassを使える様にする
 
-### `npm run eject` もしくは　`yarn run eject`
+A. `npm run eject` もしくは　`yarn run eject`
 をするとconfigを含めた色々なファイルが作成される
 
-### `npm install sass-loader node-sass --save-dev` もしくは　`yarn add sass-loader node-sass --save-dev`
+B. `npm install sass-loader node-sass --save-dev` もしくは　`yarn add sass-loader node-sass --save-dev`
 
-### あとはこの参照の通りに`webpack.config.dev.js`の中身を変えてください
+C. あとはこの参照の通りに`webpack.config.dev.js`の中身を変えてください
 How to add Sass from create-react-app
 https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
 
