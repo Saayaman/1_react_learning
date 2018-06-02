@@ -59,3 +59,5 @@ C. sass説明: sass, mixin, functions, variablesが便利な理由
 
 A. Destructuring について
 B. props と stateについて
+C. Componentsとライフサイクルについて
+D. ComponentsとFunctional Componentsについて
