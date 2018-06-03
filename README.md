@@ -26,7 +26,7 @@ $ yarn start
 https://yarnpkg.com/en/docs/install#mac-stable
 
 ## 2. App.jsの中身を作成していく
-コミットの内容通りに作って見てください
+コミットの内容通りに作成
 
 ## 3. Sassを使える様にする
 
@@ -39,6 +39,9 @@ C. あとはこの参照の通りに`webpack.config.dev.js`の中身を変えて
 How to add Sass from create-react-app
 https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
 
+
+- Webpackを軽く説明
+
 ## *React等に便利なパッケージをテキストエディタ入れてみよう!
 
 - React-Native/React/Redux snippets for es6/es7
@@ -48,16 +51,31 @@ https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app
 
 ## 4. HeaderとFooter Componentを作成!
 
-- A. Componentの説明: どういう時にComponentを使うか
-- B. ファイル構成の説明: どういうファイル構成が望ましいか
-- C. importの説明: Componentの中にどうやってファイルを読み込むか
-- D. sass説明: sass, mixin, functions, variablesが便利な理由
+- Componentの説明: どういう時にComponentを使うか
+- ファイル構成の説明: どういうファイル構成が望ましいか
+- importの説明: Componentの中にどうやってファイルを読み込むか
+- sass説明: sass, mixin, functions, variablesが便利な理由
 
-## 休憩？10分
+## 休憩？10分 (15:30くらいの予定)
 
-## 5. 
+## 5.　PortfolioItem Componentの作成
 
-- A. Destructuring について
-- B. props と stateについて
-- C. Componentsとライフサイクルについて
-- D. ComponentsとFunctional Componentsについて
+- 5-1: コミット通りに作成してください
+- 5-2: コミット通りに作成してください
+- 5-3: StateとDestructuringの説明
+
+## 6. PortfolioItemにPropsを送る
+
+- PropsとStateについて説明
+
+## 7. Constants ファイルからデータをmapする
+
+- Constantsファイルの使い方
+- UrlをConstantsを読める様にするには、ModuleScopePluginを外す
+https://stackoverflow.com/questions/44114436/the-create-react-app-imports-restriction-outside-of-src-directory
+- 並列をMAPする(*key attributeを忘れずに!*)
+- css Gridについて
+
+## 8. Container Componentを作って ChildrenをPropsをしてパスしよう
+
+- Childrenの説明
