@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import GlobalClock from './../../assets/images/global-clock.jpg';
 import './PortfolioItem.scss';
 
 export default class PortfolioItem extends Component {
@@ -21,10 +20,12 @@ export default class PortfolioItem extends Component {
   }
   render() {
     const { isHovered  } = this.state;
+    const { imageUrl, title, categories } = this.props;
+
     return (
       <div className="PorfolioItem" onMouseOver={this.handleHoverIn} onMouseLeave={this.handleHoverOut}>
         <div className="PortfolioItem-image">
-          <img src={GlobalClock} alt="Global Clock" />
+          <img src={imageUrl} alt="Global Clock" />
           {
             isHovered && (
               <button className="PortfolioItem-button">See Project</button>
@@ -32,8 +33,8 @@ export default class PortfolioItem extends Component {
           }
         </div>
         <div className="PortfolioItem-details">
-          <h3>Project Name</h3>
-          <p>Project Categories</p>
+          <h3>{title}</h3>
+          <p>{categories}</p>
         </div>
       </div>
     )
