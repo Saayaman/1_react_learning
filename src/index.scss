@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Noto+Sans');
-@import './styles/config.mixins';
 
 html {
   font-size: 10px;
@@ -33,23 +32,3 @@ button, a {
 
 }
 
-$container-width-xs: 55rem;
-$container-width-sm: 72rem;
-$container-width-md: 96rem;
-$container-width-lg: 112rem;
-$container-width-xl: 128rem;
-
-
-.Container {
-  margin: 8rem auto;
-  padding: 0 1.6rem;
-  max-width: $container-width-md;
-
-  @include break(sm) {
-    padding: 0 1.6rem;
-  }
-
-  @include break(md) {
-    padding: 0 2rem;
-  }
-}
